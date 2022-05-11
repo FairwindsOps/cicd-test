@@ -20,7 +20,7 @@ spec:
         ports:
         - containerPort: 80
         securityContext:
-          allowPrivilegeEscalation: true
+          allowPrivilegeEscalation: false
           privileged: true
           readOnlyRootFilesystem: true
           runAsNonRoot: false
